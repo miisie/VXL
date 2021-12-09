@@ -7,4 +7,4 @@
 
 #include "timer.h"
 
-int traffic_light_counter = 100, led_7seg_counter = 25;
+int traffic_light_counter = 101, led_7seg_counter = 25;

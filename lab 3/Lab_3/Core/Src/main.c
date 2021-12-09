@@ -248,7 +248,7 @@ void HAL_TIM_PeriodElapsedCallback ( TIM_HandleTypeDef * htim ){
 	      button_reading();
 
 	 if(traffic_light_counter <= 0) {
-		 traffic_light_counter = 100;
+		 traffic_light_counter = 101;
 	      mode_changing(mode);
 	 }
 
